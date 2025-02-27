@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/music_bg">
+
+    <Button
+        android:id="@+id/btn_icon"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/music_icon" />
+
+    <Button
+        android:id="@+id/btn_process"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/btn_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/progress_icon" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_process"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_left"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/left_icon">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_middle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/btn_left"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/middle_icon">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/btn_middle"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/right_icon">
+        </Button>
+
+    </RelativeLayout>
+
+</RelativeLayout>

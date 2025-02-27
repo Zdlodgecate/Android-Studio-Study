@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pro4"
+    android:padding="16dp"
+    tools:context=".Pro4102_1">
+
+    <TextView
+        android:id="@+id/first_button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the first button\n以显示Intent方式打开"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textSize="24sp"
+        android:layout_marginTop="64dp"/>
+
+    <Button
+        android:id="@+id/explicit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Second Activity"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/first_button_text"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/second_button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the second button\n以隐式Intent方式打开"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/explicit_button"
+        android:textSize="24sp"
+        android:layout_marginTop="64dp"/>
+
+    <Button
+        android:id="@+id/implicit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Third Activity"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/second_button_text"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animal_bg"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/btnStyle"
+            android:background="@drawable/three">
+        </Button>
+        <Button
+            style="@style/btnStyle"
+            android:background="@drawable/four">
+        </Button>
+
+        <Button
+            style="@style/btnStyle"
+            android:background="@drawable/box">
+        </Button>
+
+        <Button
+            style="@style/btnStyle"
+            android:background="@drawable/five">
+        </Button>
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:layout_marginTop="250dp"-->
+<!--            android:src="@drawable/box" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:layout_marginTop="250dp"-->
+<!--            android:src="@drawable/five" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:layout_marginTop="250dp"-->
+<!--            android:src="@drawable/four" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:layout_marginTop="250dp"-->
+<!--            android:src="@drawable/one" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <Button
+            style="@style/btnStyle"
+            android:background="@drawable/one">
+        </Button>
+
+        <Button
+            style="@style/btnStyle"
+            android:background="@drawable/two">
+        </Button>
+
+        <Button
+            style="@style/btnStyle"
+            android:background="@drawable/box">
+        </Button>
+
+        <Button
+            style="@style/btnStyle"
+            android:background="@drawable/four">
+        </Button>
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:src="@drawable/three" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:src="@drawable/two" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:src="@drawable/box" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:src="@drawable/five" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <Button
+            style="@style/btnStyle"
+            android:background="@drawable/five">
+        </Button>
+
+        <Button
+            style="@style/btnStyle"
+            android:background="@drawable/box">
+        </Button>
+
+        <Button
+            style="@style/btnStyle"
+            android:background="@drawable/three">
+        </Button>
+
+        <Button
+            style="@style/btnStyle"
+            android:background="@drawable/two">
+        </Button>
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:src="@drawable/four" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:src="@drawable/one" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:src="@drawable/three" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:src="@drawable/two" />-->
+    </LinearLayout>
+
+</LinearLayout>
