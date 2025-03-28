@@ -9,6 +9,7 @@
 gradle腾讯国内镜像
 distributionUrl=https://mirrors.cloud.tencent.com/gradle/gradle-8.4-bin.zip
 
+### Android studio project 文件夹项目介绍 
 1. MyApplication--第一个hello应用
 
 2. AnimalApplication --动物连连看项目
