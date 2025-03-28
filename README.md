@@ -26,7 +26,7 @@ distributionUrl=https://mirrors.cloud.tencent.com/gradle/gradle-8.4-bin.zip
 
 7. ArrayAdapterApplication --使用ListView与Adapter适配器，实现要闻列表效果
 
-8.FruitAdapterApplication --了解各种控件的使用方法，包括TextView、EditView、ImageView等，Adapter适配器水果列表。
+8. FruitAdapterApplication --了解各种控件的使用方法，包括TextView、EditView、ImageView等，Adapter适配器水果列表。
 
 9. ActivityApplication --Activity生命周期方法与跳转。建立第一个Activity，演示生命周期方法，在第一个界面中包含一个按钮，点击按钮以显示Intent方式打开第二个Activity。在第一个界面中包含第二个按钮，点击按钮以隐式Intent方式打开第三个Activity。
 
